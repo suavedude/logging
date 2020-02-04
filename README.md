@@ -52,38 +52,17 @@ Delphix Engine 5.3.x | Splunk Enterprise 7.2.5
 
 Using Splunk Forwarder
 
+Splunk provides a univer3sal or a lite forwarder agnet which is usually prsent on on any linux or windows boexs in the company. The forwarder capturs the logs and then forwars them to a central server. Since Delphix as a secure box does not allow any additonal service or package (its a black box), forwarder can call the API get logs in a directory and forward them easily. A script to do this is here https://github.com/suavedude/logging/blob/master/Delphix_getLogs_v1.0.sh
+
 <h2>Illustration</h2>
 
 ![Image of Illustratiobn](https://github.com/suavedude/logging/blob/master/pic1.png)
 
 <h1>Approach 2 : Direct File Load</h1>
 
-This approach uses the “Data input” methods of splunk to invoke an API endpoint and then capture logs.
+This approach uses the “Data input” methods of splunk to invoke an API endpoint and then capture logs. Splunk users can monitor a script and use a variant of above linked script to capture the logs directly as a datasource. It can then be indexed, searched or visualized.
 
 
 
 
 <h1>Notes</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Points to Note
