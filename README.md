@@ -1,4 +1,4 @@
-<h1>Delphic Masking Splunk Integration</h1>
+<h1>Delphix Masking Splunk Integration</h1>
 <h3>Version 1.0</h3>
 
 
