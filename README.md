@@ -56,13 +56,39 @@ Splunk provides a univer3sal or a lite forwarder agnet which is usually prsent o
 
 <h2>Illustration</h2>
 
-![Image of Illustratiobn](https://github.com/suavedude/logging/blob/master/pic1.png)
+![Image of Illustration](https://github.com/suavedude/logging/blob/master/pic1.png)
 
 <h1>Approach 2 : Direct File Load</h1>
 
 This approach uses the “Data input” methods of splunk to invoke an API endpoint and then capture logs. Splunk users can monitor a script and use a variant of above linked script to capture the logs directly as a datasource. It can then be indexed, searched or visualized.
 
+<h2>Step 1</h2>
 
+![Step 1](https://github.com/suavedude/logging/blob/master/approach_1.png)
+
+<h2>Step 2</h2>
+
+![Step 2](https://github.com/suavedude/logging/blob/master/approach_2.png)
+
+<h2>Step 3</h2>
+
+![Step 3](https://github.com/suavedude/logging/blob/master/approach_3.png)
+
+<h2>Step 4</h2>
+
+![Step 4](https://github.com/suavedude/logging/blob/master/approach_4.png)
+
+<h2>Step 5</h2>
+
+![Step 5](https://github.com/suavedude/logging/blob/master/approach_5.png)
+
+<h2>Step 6</h2>
+
+![Step 6](https://github.com/suavedude/logging/blob/master/approach_6.png)
+
+<h2>Step 7</h2>
+
+![Step 7](https://github.com/suavedude/logging/blob/master/approach_7.png)
 
 
 <h1>Notes</h1>
