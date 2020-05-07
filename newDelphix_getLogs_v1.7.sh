@@ -10,7 +10,6 @@
 #########################################################
 #Parameter Intialization
 
-#DMIP=jjh-5351-masking.dc4.delphix.com
 DMIP=0.0.0.0
 DMPORT=80
 DMUSER=******
