@@ -54,7 +54,7 @@ Delphix Engine 6.0.8 | Splunk Enterprise 7.2.5
 
 Using Splunk Forwarder
 
-Splunk provides a universal or a lite forwarder agnet which is usually prsent on on any linux or windows boexs in the company. The forwarder capturs the logs and then forwars them to a central server. Since Delphix as a secure box does not allow any additonal service or package (its a black box), forwarder can call the API get logs in a directory and forward them easily. A script to do this is here https://github.com/suavedude/logging/blob/master/Delphix_getLogs_v1.0.sh
+Splunk provides a universal or a lite forwarder agnet which is usually present on on any linux or windows boxes in the company. The forwarder capturs the logs and then forwards them to a central server. Since Delphix is a secure box, does not allow any additional service or package (its a black box), forwarder can call the API to get logs in a directory and forward them easily. A script to do this is here https://github.com/suavedude/logging/blob/master/Delphix_getLogs_v1.0.sh
 
 <h2>Illustration</h2>
 
