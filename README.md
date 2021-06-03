@@ -8,11 +8,11 @@ By [Hims Pawar](https://www.linkedin.com/in/himspawar)
 
 
 # Table of Contents  
-1. [Delphix Masking Splunk Integration](#introduction)
-Introduction	3  
-The Landscape	3  
-Approach 1: Using Splunk Forwarder	3  
-Approach 2 : Direct File Ingestion	3  
+1. [Delphix Masking Splunk Integration](#introduction)  
+2. [Introduction](#introduction)  
+3. [The Landscape](#landscape)  
+4. [Approach 1: Using Splunk Forwarder](#approach1)  
+5. [Approach 2 : Direct File Ingestion](#approach2)  
 
  
 
@@ -36,7 +36,7 @@ For additional information please refer the following links
 1. Delphix Masking Knowledge Base: [here](https://support.delphix.com/Delphix_Masking_Engine)
 1. Delphix API guide : [here](https://maskingdocs.delphix.com/Delphix_Masking_APIs/Masking_Client/Masking_API_Client/)
 
-<h1>The Landscape</h1>
+<h1>The Landscape</h1><a name="landscape"></a>
 
 You will need the following components:
 
@@ -47,7 +47,7 @@ Delphix Engine 6.0.8 | Splunk Enterprise 7.2.5
 
 
 
-<h1>Approach 1: Using Splunk Forwarder</h1>
+<h1>Approach 1: Using Splunk Forwarder</h1><a name="approach1"></a>
 
 Using Splunk Forwarder
 
@@ -57,7 +57,7 @@ Splunk provides a universal or a lite forwarder agent which is usually present o
 
 ![Image of Illustration](https://github.com/suavedude/logging/blob/master/pic1.png)
 
-<h1>Approach 2 : Direct File Load</h1>
+<h1>Approach 2 : Direct File Load</h1><a name="approach2"></a>
 
 This approach uses the “Data input” methods of splunk to invoke an API endpoint and then capture logs. Splunk users can monitor a script and use a variant of above linked script to capture the logs directly as a datasource. It can then be indexed, searched or visualized.
 
