@@ -8,12 +8,12 @@ By [Hims Pawar](https://www.linkedin.com/in/himspawar)
 
 
 
-Table of Contents
-Delphix Masking Splunk Integration	1
-Introduction	3
-The Landscape	3
-Approach 1: Using Splunk Forwarder	3
-Approach 2 : Direct File Ingestion	3
+Table of Contents  
+Delphix Masking Splunk Integration	1  
+Introduction	3  
+The Landscape	3  
+Approach 1: Using Splunk Forwarder	3  
+Approach 2 : Direct File Ingestion	3  
 
  
 
