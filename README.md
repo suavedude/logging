@@ -20,17 +20,15 @@ Approach 2 : Direct File Ingestion	3
 
 <h1>Introduction</h1>
 
-[Delphix](https://www.delphix.com/) supports log forwarding to SEIM tools like [Splunk](https://www.splunk.com/) or [Sumo logic](https://www.sumologic.com/). The Delphix virtualization logs(metrics / events) can be forwarded [directly](https://docs.delphix.com/docs/configuration/monitoring-and-log-management/splunk-integration) to splunk using a proprietary mechanism called Hypertext Event Collection( HEC) where the Delphix virtualization makes a direct connection via UI. Delphix Masking forwards the logs via API calls that are initiated externally. These calls can be made via a stand-alone program or via an automated tool like Jenkins or Mulesoft. Delphix API endpoints allow the logs to be fetched in a way that is SEIM(Security Event and Incident Monitoring) solution vendor independent.
+[Delphix](https://www.delphix.com/) supports log forwarding to SEIM tools like [Splunk](https://www.splunk.com/) or [Sumo logic](https://www.sumologic.com/). The Delphix virtualization logs(metrics / events) can be forwarded [directly](https://docs.delphix.com/docs/configuration/monitoring-and-log-management/splunk-integration) to splunk using a proprietary mechanism called Hypertext Event Collection( HEC) where the Delphix virtualization makes a direct connection via UI. Delphix Masking forwards the logs via API calls that are initiated externally. These calls can be made via a standalone program or via an automated tool like Jenkins or Mulesoft. Delphix API endpoints allow the logs to be fetched in a way that is SEIM(Security Event and Incident Monitoring) solution vendor independent.
 
 <h1>Background to Delphix Logs</h1>
 
-Delphix provides two types of logs. Both of them can be e exgracted via the API end points. These are:
+Delphix provides two types of logs. Both of them can be extracted via the API end points. These are:
 <ul>
   <li><b>Audit Log:</b> These are the Audit entries regarding system wided access of data.</li>
   <li><b>System Log:</b> These are system activities including user based work </li>
 </ul>  
-
-
 
 
 For additional information please refer the following links
@@ -54,7 +52,7 @@ Delphix Engine 6.0.8 | Splunk Enterprise 7.2.5
 
 Using Splunk Forwarder
 
-Splunk provides a universal or a lite forwarder agnet which is usually present on on any linux or windows boxes in the company. The forwarder capturs the logs and then forwards them to a central server. Since Delphix is a secure box, does not allow any additional service or package (its a black box), forwarder can call the API to get logs in a directory and forward them easily. A script to do this is here https://github.com/suavedude/logging/blob/master/Delphix_getLogs_v1.0.sh
+Splunk provides a universal or a lite forwarder agent which is usually present on on any linux or windows boxes in the company. The forwarder captures the logs and then forwards them to a central server. Since Delphix is a secure box, does not allow any additional service or package to be installed(its a black box), forwarder can call the API to get logs in a directory and forward them easily. A script to do this is here https://github.com/suavedude/logging/blob/master/Delphix_getLogs_v1.0.sh
 
 <h2>Illustration</h2>
 
