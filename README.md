@@ -20,7 +20,7 @@ Approach 2 : Direct File Ingestion	3
 
 <h1>Introduction</h1>
 
-[Delphix](https://www.delphix.com/) supports log forwarding to SEIM tools like [Splunk](https://www.splunk.com/) or [Sumo logic](https://www.sumologic.com/). The Delphix virtualization logs can be forwarded directly to splunk using a proprietary mechanism called Hypertext Event Collection( HEC) where the Delphix virtualization makes a direct connection via UI. Delphix Masking forwards the logs via API calls that are intiated externally. These calls can be made via a standalohne program or via an automated tool like Jenkins or Mulesoft. Delphix API end points allow the logs to be fetched in a way which is SEIM log vendor independent.
+[Delphix](https://www.delphix.com/) supports log forwarding to SEIM tools like [Splunk](https://www.splunk.com/) or [Sumo logic](https://www.sumologic.com/). The Delphix virtualization logs(metics / events) can be forwarded directly to splunk using a proprietary mechanism called Hypertext Event Collection( HEC) where the Delphix virtualization makes a direct connection via UI. Delphix Masking forwards the logs via API calls that are intiated externally. These calls can be made via a standalohne program or via an automated tool like Jenkins or Mulesoft. Delphix API end points allow the logs to be fetched in a way which is SEIM log vendor independent.
 
 <h1>Background to Delphix Logs</h1>
 
@@ -42,7 +42,7 @@ You will need the following components:
 
 Delphix | Splunk
 ------------ | -------------
-Delphix Engine 5.3.x | Splunk Enterprise 7.2.5
+Delphix Engine 6.0.8 | Splunk Enterprise 7.2.5
 
 
 
