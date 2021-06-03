@@ -17,7 +17,7 @@ By [Hims Pawar](https://www.linkedin.com/in/himspawar)
  
 
 
-<h1>Introduction</h1><a name="introduction"></a>
+<a name="introduction"></a><h1>Introduction</h1>
 
 [Delphix](https://www.delphix.com/) supports log forwarding to SEIM tools like [Splunk](https://www.splunk.com/) or [Sumo logic](https://www.sumologic.com/). The Delphix virtualization logs(metrics / events) can be forwarded [directly](https://docs.delphix.com/docs/configuration/monitoring-and-log-management/splunk-integration) to splunk using a proprietary mechanism called Hypertext Event Collection( HEC) where the Delphix virtualization makes a direct connection via UI. Delphix Masking forwards the logs via API calls that are initiated externally. These calls can be made via a standalone program or via an automated tool like Jenkins or Mulesoft. Delphix API endpoints allow the logs to be fetched in a way that is SEIM(Security Event and Incident Monitoring) solution vendor independent.
 
@@ -36,7 +36,7 @@ For additional information please refer the following links
 1. Delphix Masking Knowledge Base: [here](https://support.delphix.com/Delphix_Masking_Engine)
 1. Delphix API guide : [here](https://maskingdocs.delphix.com/Delphix_Masking_APIs/Masking_Client/Masking_API_Client/)
 
-<h1>The Landscape</h1><a name="landscape"></a>
+<a name="landscape"></a><h1>The Landscape</h1>
 
 You will need the following components:
 
@@ -57,7 +57,7 @@ Splunk provides a universal or a lite forwarder agent which is usually present o
 
 ![Image of Illustration](https://github.com/suavedude/logging/blob/master/pic1.png)
 
-<h1>Approach 2 : Direct File Load</h1><a name="approach2"></a>
+<a name="approach2"></a><h1>Approach 2 : Direct File Load</h1>
 
 This approach uses the “Data input” methods of splunk to invoke an API endpoint and then capture logs. Splunk users can monitor a script and use a variant of above linked script to capture the logs directly as a datasource. It can then be indexed, searched or visualized.
 
