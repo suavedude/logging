@@ -47,7 +47,7 @@ Delphix Engine 6.0.8 | Splunk Enterprise 7.2.5
 
 
 
-<h1>Approach 1: Using Splunk Forwarder</h1><a name="approach1"></a>
+<a name="approach1"></a><h1>Approach 1: Using Splunk Forwarder</h1>
 
 Using Splunk Forwarder
 
